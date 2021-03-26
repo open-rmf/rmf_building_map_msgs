@@ -1,8 +1,8 @@
-This document is a declaration of software quality for the `building_map_msgs` package, based on the guidelines in [REP-2004](https://www.ros.org/reps/rep-2004.html).
+This document is a declaration of software quality for the `rmf_building_map_msgs` package, based on the guidelines in [REP-2004](https://www.ros.org/reps/rep-2004.html).
 
-# `building_map_msgs` Quality Declaration
+# `rmf_building_map_msgs` Quality Declaration
 
-The package `building_map_msgs` claims to be in the **Quality Level 3** category.
+The package `rmf_building_map_msgs` claims to be in the **Quality Level 3** category.
 
 Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 3 in REP-2004](https://www.ros.org/reps/rep-2004.html).
 
@@ -10,11 +10,11 @@ Below are the rationales, notes, and caveats for this claim, organized by each r
 
 ### Version Scheme [1.i]
 
-`building_map_msgs` uses `semver` according to the recommendation for ROS Core packages in the [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#versioning).
+`rmf_building_map_msgs` uses `semver` according to the recommendation for ROS Core packages in the [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#versioning).
 
 ### Version Stability [1.ii]
 
-`building_map_msgs` is at a stable version, i.e. `>= 1.0.0`.
+`rmf_building_map_msgs` is at a stable version, i.e. `>= 1.0.0`.
 The current version can be found in its [package.xml](package.xml), and its change history can be found in its [CHANGELOG](CHANGELOG.rst).
 
 ### Public API Declaration [1.iii]
@@ -23,23 +23,23 @@ All message definition files located the `msg` directory and service definition 
 
 ### API Stability Within a Released ROS Distribution [1.iv]/[1.vi]
 
-`building_map_msgs` will not break public API within a released ROS distribution, i.e. no major releases once the ROS distribution is released.
+`rmf_building_map_msgs` will not break public API within a released ROS distribution, i.e. no major releases once the ROS distribution is released.
 
 ### ABI Stability Within a Released ROS Distribution [1.v]/[1.vi]
 
-`building_map_msgs` does not contain any C or C++ code and therefore will not affect ABI stability.
+`rmf_building_map_msgs` does not contain any C or C++ code and therefore will not affect ABI stability.
 
 ## Change Control Process [2]
 
-`building_map_msgs` follows the recommended guidelines for ROS Core packages in the [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#package-requirements).
+`rmf_building_map_msgs` follows the recommended guidelines for ROS Core packages in the [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#package-requirements).
 
 ### Change Requests [2.i]
 
-`building_map_msgs` requires that all changes occur through a pull request.
+`rmf_building_map_msgs` requires that all changes occur through a pull request.
 
 ### Contributor Origin [2.ii]
 
-`building_map_msgs` does not require a confirmation of contributor origin.
+`rmf_building_map_msgs` does not require a confirmation of contributor origin.
 
 ### Peer Review Policy [2.iii]
 
@@ -59,16 +59,16 @@ All pull requests must resolve related documentation changes before merging.
 
 ### Feature Documentation [3.i]
 
-`building_map_msgs` has basic comments in the message and service definition files, but no list of messages, services, or usage guide is provided.
+`rmf_building_map_msgs` has basic comments in the message and service definition files, but no list of messages, services, or usage guide is provided.
 New messages and services require their own documentation in order to be added.
 
 ### Public API Documentation [3.ii]
 
-`building_map_msgs` has embedded API documentation, but it is not currently hosted.
+`rmf_building_map_msgs` has embedded API documentation, but it is not currently hosted.
 
 ### License [3.iii]
 
-The license for `building_map_msgs` is Apache 2.0, the type is declared in the [package.xml](package.xml) manifest file, and a full copy of the license is in the repository level [LICENSE](../LICENSE) file.
+The license for `rmf_building_map_msgs` is Apache 2.0, the type is declared in the [package.xml](package.xml) manifest file, and a full copy of the license is in the repository level [LICENSE](../LICENSE) file.
 
 There are no source files that are currently copyrighted in this package so files are not checked for abbreviated license statements.
 
@@ -86,29 +86,29 @@ This quality declaration has not been externally peer-reviewed and is not regist
 
 ### Feature Testing [4.i]
 
-`building_map_msgs` is a package providing strictly message and service definitions and therefore does not require associated tests.
+`rmf_building_map_msgs` is a package providing strictly message and service definitions and therefore does not require associated tests.
 
 ### Public API Testing [4.ii]
 
-`building_map_msgs` is a package providing strictly message and service definitions and therefore does not require associated tests.
+`rmf_building_map_msgs` is a package providing strictly message and service definitions and therefore does not require associated tests.
 
 ### Coverage [4.iii]
 
-`building_map_msgs` is a package providing strictly message and service definitions and therefore has no coverage requirements.
+`rmf_building_map_msgs` is a package providing strictly message and service definitions and therefore has no coverage requirements.
 
 ### Performance [4.iv]
 
-`building_map_msgs` is a package providing strictly message and service definitions and therefore has no performance requirements.
+`rmf_building_map_msgs` is a package providing strictly message and service definitions and therefore has no performance requirements.
 
 ### Linters and Static Analysis [4.v]
 
-`building_map_msgs` does not use the standard linters and static analysis tools for its generated C++ and Python code to ensure it follows the [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#linters).
+`rmf_building_map_msgs` does not use the standard linters and static analysis tools for its generated C++ and Python code to ensure it follows the [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#linters).
 
 ## Dependencies [5]
 
 ### Direct Runtime ROS Dependencies [5.i]
 
-`building_map_msgs` has the following runtime ROS dependencies.
+`rmf_building_map_msgs` has the following runtime ROS dependencies.
 
 #### builtin\_interfaces
 
@@ -124,15 +124,15 @@ This quality declaration has not been externally peer-reviewed and is not regist
 
 ### Optional Direct Runtime ROS Dependencies [5.ii]
 
-`building_map_msgs` does not have any optional direct runtime ROS dependencies.
+`rmf_building_map_msgs` does not have any optional direct runtime ROS dependencies.
 
 ### Direct Runtime non-ROS Dependency [5.iii]
 
-`building_map_msgs` does not have any runtime non-ROS dependencies.
+`rmf_building_map_msgs` does not have any runtime non-ROS dependencies.
 
 ## Platform Support [6]
 
-As a pure message and service definitions package, `building_map_msgs` supports all of the tier 1 platforms as described in [REP-2000](https://www.ros.org/reps/rep-2000.html#support-tiers), but does not currently test each change against all of them.
+As a pure message and service definitions package, `rmf_building_map_msgs` supports all of the tier 1 platforms as described in [REP-2000](https://www.ros.org/reps/rep-2000.html#support-tiers), but does not currently test each change against all of them.
 
 ## Security [7]
 
