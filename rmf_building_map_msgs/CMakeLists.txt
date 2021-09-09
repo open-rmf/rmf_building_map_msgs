@@ -20,6 +20,7 @@ find_package(rosidl_default_generators REQUIRED)
 set(msg_files
   "msg/AffineImage.msg"
   "msg/BuildingMap.msg"
+  "msg/CoordinateFrame.msg"
   "msg/Door.msg"
   "msg/Graph.msg"
   "msg/GraphEdge.msg"
@@ -28,6 +29,7 @@ set(msg_files
   "msg/Lift.msg"
   "msg/Param.msg"
   "msg/Place.msg"
+  "msg/SiteMap.msg"
 )
 
 set(srv_files
