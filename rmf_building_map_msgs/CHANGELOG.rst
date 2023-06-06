@@ -2,6 +2,9 @@
 Changelog for package rmf_building_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.0 (2023-06-06)
+------------------
+
 1.2.0 (2021-01-06)
 ------------------
 * Add first pass of quality declarations for all packages (`#235 <https://github.com/osrf/traffic_editor/issues/235>`_)
