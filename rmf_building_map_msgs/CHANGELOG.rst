@@ -2,6 +2,9 @@
 Changelog for package rmf_building_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.5.0 (2024-06-12)
 ------------------
 
