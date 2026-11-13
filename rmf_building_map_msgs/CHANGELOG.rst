@@ -2,6 +2,13 @@
 Changelog for package rmf_building_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.0 (2026-11-13)
+------------------
+* Add GraphZone, ZoneVertex, ZoneTransitionLane for GoToZone feature (`#10 <https://github.com/open-rmf/rmf_building_map_msgs/issues/10>`_)
+  Co-authored-by: Loke Ji Xian <loke_ji_xian@cgh.com.sg>
+* bump cmake version (`#12 <https://github.com/open-rmf/rmf_building_map_msgs/issues/12>`_)
+* Contributors: Aaron Chong, chart
+
 1.7.0 (2026-09-18)
 ------------------
 
